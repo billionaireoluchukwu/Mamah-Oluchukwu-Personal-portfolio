@@ -1,0 +1,121 @@
+/* =================================
+   The Soil: Yagazie Brand Foundation
+   ================================= */
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Georgia, serif;
+    background-color: #f7f4eb;
+    color: #2d2418;
+}
+
+
+/* Navigation */
+
+.navbar {
+    height: 90px;
+    background-color: #12372a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+}
+
+
+.logo {
+    color: #d4af37;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+
+.nav-links li {
+    color: #f7f4eb;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+/* Hero Section: The First Harvest */
+
+.hero {
+    height: 85vh;
+
+    background:
+    linear-gradient(
+        rgba(18,55,42,0.75),
+        rgba(18,55,42,0.75)
+    ),
+    url("../images/farm.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 8%;
+}
+
+
+.hero-content {
+    max-width: 700px;
+}
+
+
+.tagline {
+    color: #d4af37;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+
+.hero h2 {
+    color: white;
+    font-size: 60px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+
+.hero-content p {
+    color: #f7f4eb;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+button {
+    background-color: #d4af37;
+    color: #12372a;
+
+    border: none;
+    padding: 18px 35px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    border-radius: 40px;
+
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #f7f4eb;
+}
