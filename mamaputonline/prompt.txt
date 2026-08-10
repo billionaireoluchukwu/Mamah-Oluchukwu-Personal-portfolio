@@ -1,0 +1,360 @@
+
+---
+
+# 1. Initial Website Concept Prompt
+
+> Build a Nigerian food ordering landing page called **MamaPutOnline**.
+> It should represent Nigerian food culture, home cooking, and the feeling of eating food made by Mama.
+> The brand should feel warm, traditional, premium, and nostalgic.
+
+Brand message:
+
+> “Nigeria On A Plate”
+
+Target audience:
+
+* Busy professionals
+* Students
+* Families
+* Nigerians in urban areas
+
+---
+
+# 2. Visual Direction Prompt
+
+> Use an African cultural artwork as the full website background with a dark overlay.
+> The design should feel Nigerian, warm, traditional and premium.
+
+Color palette:
+
+```
+Deep red: #4a0404
+
+Cream: #f7f4eb
+
+Gold: #efa747
+
+Food card coral: #c05c46
+
+Dark luxury shade: #210202
+
+Footer: Dark green
+```
+
+---
+
+# 3. Hero Section Prompt
+
+> Create a hero section directly below the navigation bar.
+> The hero section should occupy 100% width and have a large premium landing-page feel.
+
+Requirements:
+
+* Cultural background image
+* Dark overlay
+* Split hero into two sides
+
+Left:
+
+```
+Brand message
+Story text
+CTA button
+```
+
+Right:
+
+```
+Buka stew image
+Zoom animation
+Steam effect
+```
+
+---
+
+# 4. Buka Stew Image Prompt
+
+> Use this Buka stew image as the main hero food image.
+> Keep the right aspect ratio and avoid pixelation.
+> Add zoom animation and steam effect so the food feels fresh.
+
+---
+
+# 5. Navigation Bar Prompt
+
+> Create a dark red navigation menu.
+
+Navbar requirements:
+
+Left:
+
+```
+Logo
+```
+
+Menu items:
+
+```
+Menu
+Soups
+Rice
+Finger Foods
+Drinks
+Desserts
+```
+
+Right:
+
+```
+Search meals window
+
+WhatsApp order button
+```
+
+---
+
+# 6. Logo Creation Prompt
+
+> Create a MamaPutOnline logo featuring a happy African/Nigerian woman wearing traditional wrapper and gele, smiling, holding a long cooking spoon beside a traditional pot.
+
+Logo text:
+
+```
+MamaPutOnline
+
+Taste of home, just like mama made it
+
+Nigeria On A Plate
+```
+
+Style:
+
+* warm
+* African
+* friendly
+* premium food brand
+* transparent background for website use
+
+---
+
+# 7. Menu/Product Cards Prompt
+
+> Create product cards showing Nigerian meals clearly.
+
+Each card should contain:
+
+```
+Food image
+
+Food name
+
+Quantity
+
+Price in Naira
+
+Short funny Nigerian description
+```
+
+Tone example:
+
+> Mama’s Special Egusi Soup — so delicious your heart go race small 😂
+
+---
+
+# 8. Food List Prompt
+
+Include Nigerian foods from different cultures:
+
+## Soups
+
+```
+Egusi
+Ewedu
+Ofe Ora
+Edikaikong
+Ofe Okazi
+Ogbono
+Seafood Okro
+Pepper Soup
+Efo Riro
+Gbegiri
+Banga Soup
+Ofe Nsala
+Afang Soup
+```
+
+---
+
+## Rice
+
+```
+Jollof Rice
+Dirty Rice
+Fried Rice
+Palm Oil Rice
+Pepper Rice
+Coconut Rice
+```
+
+---
+
+## Sauces
+
+```
+Pepper Sauce
+Vegetable Sauce
+Fish Stew
+Chicken Stew
+Assorted Meat Stew
+Ofada Sauce
+```
+
+---
+
+## Yam Dishes
+
+```
+Porridge Yam
+Ikokore
+Ji Agworagwo
+Fiofio na Ji
+```
+
+---
+
+## Traditional Foods
+
+```
+Beans
+Beans and Plantain
+Abacha
+Nkwobi
+```
+
+---
+
+## Drinks
+
+```
+Palm Wine
+Kunu Aya
+Zobo
+Fura
+```
+
+---
+
+## Finger Foods
+
+```
+Kilishi
+Suya
+Puff Puff
+Samosa
+Dodo Ikire
+Gizdodo
+Akara
+Chin Chin
+Fried Yam
+Dodo
+Peppered Snail
+Peppered Pomo
+Fried Chicken
+```
+
+---
+
+# 9. Brand Story Prompt
+
+> Add a storytelling section about Mama’s cooking.
+
+Story idea:
+
+> Mama's Ofe Akwu was breathtaking.
+>
+> Not because she had one secret ingredient hidden somewhere.
+>
+> The secret was simple.
+>
+> Love. Patience.
+>
+> And that refusal to serve food she wouldn’t eat herself.
+
+---
+
+# 10. Locations Prompt
+
+> Add delivery locations because MamaPutOnline has branches.
+
+Locations:
+
+```
+Enugu
+Lagos
+Abuja
+Port Harcourt
+Kaduna
+```
+
+---
+
+# 11. Contact Prompt
+
+Add:
+
+```
+WhatsApp:
+080231022557
+
+Social media:
+@mamaputonline
+```
+
+---
+
+# 12. Technical Requirement Prompt
+
+> This is a class project. Build only with HTML and CSS. No hamburger menu because of assignment restrictions.
+
+Requirements:
+
+* Responsive design
+* CSS Grid
+* Flexbox
+* Hover effects
+* Animations
+* Media queries
+
+---
+
+# 13. Final Debug Prompt
+
+> Review the code against my lecturer's requirements.
+
+Checklist:
+
+```
+✓ Logo top left
+
+✓ Search window top right
+
+✓ Menu bar below/inside header
+
+✓ Hero section with CTA
+
+✓ Hero visually dominant
+
+✓ Responsive
+
+✓ HTML + CSS only
+
+✓ No JavaScript
+
+✓ Premium landing page feel
+```
+
+---
+
+# 14. Final Presentation Summary Prompt
+
+> MamaPutOnline is not just a food website. It is a digital experience built around Nigerian food, culture, memories, and the feeling of eating food made with love.

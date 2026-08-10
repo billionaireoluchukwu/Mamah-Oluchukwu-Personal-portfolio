@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Contact | Yagazie Foods and Farms</title><link rel="stylesheet" href="app.css"></head>
+<body>
+  <!-- Contact form is static but gives friendly JavaScript feedback for the assignment. -->
+  <header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="index.html"><span class="brand-mark"><svg viewBox="0 0 64 64"><path fill="currentColor" d="M32 6c12 7 19 17 19 29 0 13-8 23-19 23S13 48 13 35C13 23 20 13 32 6Zm0 10c-7 6-11 12-11 19 0 8 5 15 11 15s11-7 11-15c0-7-4-13-11-19Z"/><path fill="#f4b740" d="M30 22h5v28h-5z"/></svg></span><span class="brand-text">Yagazie <small>Foods & Farms</small></span></a><ul class="menu"><li><a href="index.html">Home</a></li><li class="dropdown"><button class="drop-button" type="button">Explore ▾</button><div class="dropdown-menu"><a href="about.html">About Us</a><a href="farm.html">Our Farm</a><a href="products.html">Catalog</a><a href="recipes.html">Recipes</a></div></li><li class="dropdown"><button class="drop-button" type="button">Work With Us ▾</button><div class="dropdown-menu"><a href="wholesale.html">Wholesale</a><a href="contact.html">Contact</a></div></li><li><a class="cta-link" href="contact.html">Order</a></li></ul></nav></header>
+  <main class="page-main">
+    <section class="page-hero"><div class="section-inner"><p class="eyebrow">Contact</p><h1>Tell us what you need.</h1><p class="lead">Send a message for home supply, foodstuff packs, wholesale orders or event kitchen planning.</p></div></section>
+    <section class="section"><div class="section-inner two-grid">
+      <form class="contact-panel form-grid" data-contact-form>
+        <label>Name <input name="name" required placeholder="Your name"></label>
+        <label>Order type <select name="type"><option>Home supply</option><option>Wholesale</option><option>Event supply</option><option>General question</option></select></label>
+        <label>Message <textarea name="message" required placeholder="List the items and quantity you want."></textarea></label>
+        <button class="button primary" type="submit">Send Message</button>
+        <p data-form-status aria-live="polite"></p>
+      </form>
+      <aside class="contact-panel"><h2>Reach us</h2><p><strong>Phone:</strong> 0800-YAGAZIE</p><p><strong>Email:</strong> orders@yagaziefoods.gmail.com</p><p><strong>Location:</strong> Nigeria</p></aside>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="footer-inner"><span>© <span data-year></span> Yagazie Foods and Farms</span><div class="footer-links"><a href="contact.html">Contact</a><a href="wholesale.html">Wholesale</a></div></div></footer><script src="app.js"></script>
+</body></html>
