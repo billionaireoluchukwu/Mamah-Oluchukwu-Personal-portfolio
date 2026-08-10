@@ -7,1344 +7,258 @@
   <!-- Google Fonts: Playfair Display for headings, Source Sans Pro for body -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
   <!-- Font Awesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link rel="stylesheet" href="./index.css">
-  <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-  <!-- 1. Navigation Bar (Sticky) -->
-  
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="#home" class="logo">MO.</a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
   <main>
     <!-- ================= HERO ================= -->
-<header class="hero" id="home">
-  <div class="shape shape-1"></div>
-<div class="shape shape-2"></div>
-<div class="shape shape-3"></div>
+    <header class="hero" id="home">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
 
-    <nav class="navbar">
-
-        <a href="#" class="logo">MO.</a>
-
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#work">Projects</a></li>
-            <li><a href="#videos">Videos</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-
-    </nav>
-
-    <div class="hero-content">
+      <div class="hero-content">
 
         <div class="hero-text">
 
-            <span class="intro">
-                Software Developer • 
-            </span>
+          <span class="intro">Software Developer</span>
 
-            <h1>
-                Mamah <br>
-                <span>Oluchukwu</span>
-            </h1>
+          <h1>
+            Mamah <br>
+            <span>Oluchukwu</span>
+          </h1>
 
-            <h3>
-                Software Developer • Author • Founder
-            </h3>
+          <h3>Software Developer • Author • Founder</h3>
 
-            <p>
-                I build meaningful digital experiences and purpose-driven brands through thoughtful design, clean code and creative storytelling.
-            </p>
+          <p>
+            I build meaningful digital experiences and purpose-driven brands
+            through thoughtful design, clean code and creative storytelling.
+          </p>
 
-            <div class="hero-buttons">
+          <div class="hero-buttons">
+            <a href="#projects" class="primary-btn">View My Work</a>
+            <a href="Mamah_Oluchukwu_CV.pdf" class="secondary-btn">Download CV</a>
+          </div>
 
-                <a href="#work" class="primary-btn">
-                    View My Work
-                </a>
-
-                <a href="cv.pdf" class="secondary-btn">
-                    Download CV
-                </a>
-
-            </div>
-
-            <div class="social-links">
-
-               <a href="https://github.com/billionaireoluchukwu" target="_blank">GitHub</a>
-
-                <a href="https://www.linkedin.com/in/mamah-oluchukwu" target="_blank">LinkedIn</a>
-
-                <a href="mailto:theoluchukwu@example.com " target="_blank" >Email</a>
-
-            </div>
+          <div class="social-links">
+            <a href="https://github.com/billionaireoluchukwu" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/mamah-oluchukwu" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:theoluchukwu@gmail.com">Email</a>
+          </div>
 
         </div>
 
         <div class="hero-image">
-
-<div class="image-circle">
-
-    <div class="image-inner">
-
-        <img src="images/profile.jpg" alt="Mamah Oluchukwu">
-
-    </div>
-
-</div>
-
+          <div class="image-circle">
+            <div class="image-inner">
+              <img src="images/profile.jpg" alt="Mamah Oluchukwu">
+            </div>
+          </div>
         </div>
 
-    </div>
+      </div>
+    </header>
 
-</header>
-
-<!-- ================= ABOUT ================= -->
-
-<section class="about" id="about">
-
-    <div class="about-container">
+    <!-- ================= ABOUT ================= -->
+    <section class="about" id="about">
+      <div class="about-container">
 
         <div class="about-text">
+          <span class="section-tag">About Me</span>
 
-            <span class="section-tag">
-                About Me
-            </span>
+          <h2>Designing with purpose. Building with intention.</h2>
 
-            <h2>
-                Designing with purpose.
-                Building with intention.
-            </h2>
+          <p>
+            I am a software developer, author and founder who enjoys
+            building digital experiences that are both functional and
+            meaningful. Whether I'm writing code, creating brands or
+            sharing knowledge through books, my goal is to solve real
+            problems with creativity and excellence.
+          </p>
 
-            <p>
-                I am a software developer, author and founder who enjoys
-                building digital experiences that are both functional and
-                meaningful. Whether I'm writing code, creating brands or
-                sharing knowledge through books, my goal is to solve real
-                problems with creativity and excellence.
-            </p>
+          <p>
+            I believe thoughtful technology can inspire people, strengthen
+            communities and transform ideas into lasting impact.
+          </p>
 
-            <p>
-                I believe thoughtful technology can inspire people, strengthen
-                communities and transform ideas into lasting impact.
-            </p>
-
-            <a href="#projects" class="primary-btn">
-                Explore My Projects
-            </a>
-
+          <a href="#projects" class="primary-btn">Explore My Projects</a>
         </div>
 
         <div class="about-cards">
+          <article class="about-card">
+            <h3>💻 Software Development</h3>
+            <p>Responsive websites, clean interfaces and practical solutions using modern web technologies.</p>
+          </article>
 
-            <article class="about-card">
+          <article class="about-card">
+            <h3>📖 Writing &amp; Publishing</h3>
+            <p>Author of faith-based resources that simplify biblical truths into practical wisdom.</p>
+          </article>
 
-                <h3>💻 Software Development</h3>
-
-                <p>
-                    Responsive websites, clean interfaces and practical
-                    solutions using modern web technologies.
-                </p>
-
-            </article>
-
-            <article class="about-card">
-
-                <h3>📖 Writing & Publishing</h3>
-
-                <p>
-                    Author of faith-based resources that simplify biblical
-                    truths into practical wisdom.
-                </p>
-
-            </article>
-
-            <article class="about-card">
-
-                <h3>🌿 Entrepreneurship</h3>
-
-                <p>
-                    Building purpose-driven brands in agriculture,
-                    technology and creative education.
-                </p>
-
-            </article>
-
+          <article class="about-card">
+            <h3>🌿 Entrepreneurship</h3>
+            <p>Building purpose-driven brands in agriculture, technology and creative education.</p>
+          </article>
         </div>
 
-    </div>
-
-</section>
-
-    <!-- 3. About Me Section -->
-   
-
-    <header>
-    ...
-</header>
-
-<main>
-
-    <!-- Hero -->
-    <section id="home">
-        ...
+      </div>
     </section>
 
-    <!-- About -->
-    <section id="about">
-        ...
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="projects">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-tag">Explore My Work</span>
+          <h2>Featured Projects</h2>
+          <p>A selection of websites, brands and AI-assisted work I've built.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: MamaPutOnline -->
+          <article class="project-card">
+            <div class="project-img">
+              <img src="images/mamaput-online.jpg" alt="MamaPutOnline">
+              <span class="project-badge">Web Development • Responsive Design</span>
+            </div>
+            <div class="project-info">
+              <h3>MamaPutOnline</h3>
+              <p>
+                A responsive Nigerian food-ordering website that connects
+                people with authentic homemade meals through a clean, modern interface.
+              </p>
+              <p class="tech-used">HTML • CSS • Responsive Design</p>
+              <div class="project-links">
+                <a href="mamaputonline/index.html" target="_blank" rel="noopener" class="btn-small">Live Demo</a>
+                <a href="videos/mamaput.mp4" target="_blank" rel="noopener" class="btn-small btn-outline">Video Walkthrough</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Yagazie Foods & Farms -->
+          <article class="project-card">
+            <div class="project-img">
+              <img src="images/Yagazie-foods-and-farms.jpg" alt="Yagazie Foods & Farms">
+              <span class="project-badge">Agriculture • Branding • UI/UX</span>
+            </div>
+            <div class="project-info">
+              <h3>Yagazie Foods &amp; Farms</h3>
+              <p>
+                A modern agricultural brand website showcasing fresh farm produce
+                through a story of faith, sustainability and purposeful farming.
+              </p>
+              <p class="tech-used">HTML • CSS • UI/UX • Brand Identity</p>
+              <div class="project-links">
+                <a href="Yagazie-Foods-Farms/index.html" target="_blank" rel="noopener" class="btn-small">Live Demo</a>
+                <a href="videos/yagazie.mp4" target="_blank" rel="noopener" class="btn-small btn-outline">Video Walkthrough</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: The Divine Trio -->
+          <article class="project-card">
+            <div class="project-img">
+              <img src="images/The divine trio-and-transformative-wisdom.png" alt="The Divine Trio">
+              <span class="project-badge">Writing • Book Design • UI/UX</span>
+            </div>
+            <div class="project-info">
+              <h3>The Divine Trio</h3>
+              <p>
+                A Christ-centred book exploring the biblical relationship between
+                knowledge, understanding and wisdom, designed as an interactive web experience.
+              </p>
+              <p class="tech-used">Writing • Book Design • HTML5 • CSS3</p>
+              <div class="project-links">
+                <a href="The-divine-trio-review.pdf" target="_blank" rel="noopener" class="btn-small">Read Preview</a>
+                <a href="#" class="btn-small btn-outline">Coming Soon</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Nigeria's Agricultural Revolution Through AI -->
+          <article class="project-card">
+            <div class="project-img">
+              <img src="images/ai-picture.jpg" alt="Nigeria's Agricultural Revolution Through AI">
+              <span class="project-badge">AI • Prompt Engineering • Video</span>
+            </div>
+            <div class="project-info">
+              <h3>Nigeria's Agricultural Revolution Through AI</h3>
+              <p>
+                An AI-powered presentation exploring how artificial intelligence
+                can transform Nigeria's agricultural sector through research and storytelling.
+              </p>
+              <p class="tech-used">AI • Prompt Engineering • Video Production</p>
+              <div class="project-links">
+                <a href="videos/Nigeria's_Agricultural_Revolution_Through_AI.mp4" target="_blank" rel="noopener" class="btn-small">Watch Video</a>
+                <a href="#" class="btn-small btn-outline">Project Overview</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: Mega Chicken Analytics Dashboard -->
+          <article class="project-card">
+            <div class="project-img mega-chicken">
+              <span class="project-badge">Data Analytics • Power BI • Business Intelligence</span>
+            </div>
+            <div class="project-info">
+              <h3>Mega Chicken Analytics Dashboard</h3>
+              <p>
+                An interactive analytics dashboard built from customer review data
+                to uncover trends, sentiment and actionable business insights.
+              </p>
+              <p class="tech-used">Excel • Power BI • Data Visualization</p>
+              <div class="project-links">
+                <a href="megachicken/Mega-Chicken-Analytics-Report.pdf" target="_blank" rel="noopener" class="btn-small">View Report</a>
+                <a href="https://github.com/billionaireoluchukwu/megachicken" target="_blank" rel="noopener" class="btn-small btn-outline">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
     </section>
 
-    <!-- Selected Work -->
-    
-    <section id="work">
-      <!--======================
-
-
-    <!-- Contact -->
-    <section id="contact">
-       
-    </section>
-
-</main>
-
-
-    
-    
-
- 
-
-    <!-- 4. Projects Showcase -->
-   <!-- Projects -->
-<section id="projects" class="projects">
-  <div class="container">
-    <h2>Featured Projects</h2>
-
-    <div class="projects-grid">
-
-      <!-- Project 1 -->
-      <article class="project-card">
-        <div class="project-img mamaput"></div>
-
-        <div class="project-info">
-          <h3>MamaPutOnline</h3>
-
-          <p>
-            A responsive Nigerian food-ordering website that connects people
-            with authentic homemade meals through a clean, modern interface.
-          </p>
-
-          <p class="tech-used">
-            HTML • CSS • Responsive Design
-          </p>
-          <div class="project-story">
-            <div class="project-features">
-
-    <h3>Key Features</h3>
-    <div class="Design Thinking">
-      
-
-    <h3>Transforming an idea into a polished digital experience.</h3>
-
-    <p>
-        MamaPutOnline demonstrates my ability to translate a real-world idea into a responsive, user-centred web experience. By combining thoughtful interface design with clean front-end development, I created a product that is visually engaging, easy to navigate and adaptable across devices. The project reflects my commitment to building digital experiences that are both functional and meaningful.
-    </p>
-
-</div>
-
-    <h3>Tools & Technologies</h3>
-
-    <div class="tech-pills">
-
-        <span class="tech-pill">HTML5</span>
-
-        <span class="tech-pill">CSS3</span>
-
-        <span class="tech-pill">Flexbox</span>
-
-        <span class="tech-pill">CSS Grid</span>
-
-        <span class="tech-pill">Responsive Design</span>
-
-        <span class="tech-pill">Git</span>
-
-        <span class="tech-pill">GitHub</span>
-
-        <span class="tech-pill">VS Code</span>
-
-    </div>
-
-</div>
-
-    <div class="decision-heading">
-
-        <span class="section-tag">Design Thinking</span>
-
-        <h3>Every design choice was made to reinforce comfort, trust and simplicity.</h3>
-
-    </div>
-
-    <div class="decision-grid">
-
-        <div class="decision-card">
-
-            <h4>Warm Colour Palette</h4>
-
-            <p>
-                Soft terracotta, cream and earthy neutrals were selected to evoke the warmth of homemade meals while creating a welcoming digital experience.
-            </p>
-
-        </div>
-
-        <div class="decision-card">
-
-            <h4>Editorial Layout</h4>
-
-            <p>
-                A spacious layout with generous white space guides the eye naturally through the content and allows food imagery to remain the visual focus.
-            </p>
-
-        </div>
-
-        <div class="decision-card">
-
-            <h4>Responsive Experience</h4>
-
-            <p>
-                Every section adapts seamlessly across devices, ensuring users enjoy the same experience whether browsing from a phone or desktop.
-            </p>
-
-        </div>
-
-        <div class="decision-card">
-
-            <h4>Visual Hierarchy</h4>
-
-            <p>
-                Typography, spacing and image placement were carefully structured to help users quickly discover meals without feeling overwhelmed.
-            </p>
-
-        </div>
-
-    </div>
-
-</div>
-
-    <div class="features-grid">
-
-        <div class="feature-item">
-            <i class="fa-solid fa-mobile-screen-button"></i>
-            <div>
-                <h4>Responsive Design</h4>
-                <p>Optimised for desktop, tablet and mobile devices.</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-utensils"></i>
-            <div>
-                <h4>Food Categories</h4>
-                <p>Organised meals into intuitive categories for faster browsing.</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-image"></i>
-            <div>
-                <h4>Rich Visual Experience</h4>
-                <p>High-quality food imagery creates an inviting browsing experience.</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-bolt"></i>
-            <div>
-                <h4>Fast Performance</h4>
-                <p>Lightweight front-end focused on speed and smooth interaction.</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-layer-group"></i>
-            <div>
-                <h4>Clean Layout</h4>
-                <p>Editorial-inspired interface with clear visual hierarchy.</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-hand-pointer"></i>
-            <div>
-                <h4>Intuitive Navigation</h4>
-                <p>Simple user journeys that make finding meals effortless.</p>
-            </div>
-        </div>
-
-    </div>
-
-</div>
-
-    <div class="project-highlights">
-    
-    
-    <div class="highlight">
-        <span class="highlight-label">Role</span>
-        <h5>Front-End Developer</h5>
-    </div>
-
-    <div class="highlight">
-        <span class="highlight-label">Timeline</span>
-        <h5>2 Weeks</h5>
-    </div>
-
-    <div class="highlight">
-        <span class="highlight-label">Project Type</span>
-        <h5>Responsive Website</h5>
-    </div>
-
-    <div class="highlight">
-        <span class="highlight-label">Tools</span>
-        <h5>HTML • CSS • JavaScript</h5>
-    </div>
-
-</div>
-
-    <div class="story-block">
-        <h4>The Challenge</h4>
-        <p>
-            Busy professionals, students and families often crave authentic homemade Nigerian meals but struggle to find trusted local vendors online. Existing food platforms focus primarily on restaurants, leaving a gap for comforting home-style meals that are easy to discover and order.
-        </p>
-    </div>
-
-    <div class="story-block">
-        <h4>The Solution</h4>
-        <p>
-            MamaPutOnline was designed as a responsive web platform that brings homemade Nigerian meals online through a clean, intuitive interface. The goal was to create a browsing experience that feels warm, familiar and effortless while showcasing local cuisine beautifully.
-        </p>
-    </div>
-
-    <div class="story-block">
-        <h4>My Role</h4>
-        <p>
-            I designed and developed the front-end experience, creating the user interface, responsive layouts, visual identity and interactions using HTML and CSS while ensuring accessibility and usability across devices.
-        </p>
-    </div>
-
-</div>
-
-          <div class="project-links">
-            <a href="mamaputonline/index.html"
-   target="_blank"
-   class="btn-small">
-    Live Demo
-</a>
-            <a href="#" class="btn-small">GitHub</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- ===========================
-     YAGAZIE FOODS PROJECT
-=========================== -->
-
-<section id="projects" class="projects">
-  <div class="container">
-    <h2>Featured Projects</h2>
-
-    <div class="projects-grid">
-
-      <!-- Project 1 -->
-      <article class="project-card">
-        <div class="project-img yagazie"></div>
-        <div class="project-badge">
-    Agriculture • Branding • UI/UX
-</div>
-
-        <div class="project-info">
-          <h3>Yagazie Foods & Farms</h3>
-
-<p class="project-subtitle">
-Where Scripture Meets Soil
-</p>
-
-          <p>
-            A modern agricultural and food brand website that showcases fresh farm produce while communicating a compelling story of faith, sustainability and purposeful farming through an elegant digital experience.
-          </p>
-
-          <p class="tech-used">
-           HTML • CSS • UI/UX • Brand Identity
-          </p>
-          <div class="project-snapshot">
-
-    <div class="snapshot-item">
-        <span>Industry</span>
-        <strong>Agriculture</strong>
-    </div>
-
-    <div class="snapshot-item">
-        <span>Role</span>
-        <strong>UI/UX & Front-End</strong>
-    </div>
-
-    <div class="snapshot-item">
-        <span>Duration</span>
-        <strong>3 Weeks</strong>
-    </div>
-
-    <div class="snapshot-item">
-        <span>Platform</span>
-        <strong>Responsive Website</strong>
-    </div>
-
-</div>
-          <div class="project-story">
-            <div class="project-features">
-
-    <h3>Project Highlights</h3>
-    <div class="Design Thinking">
-      
-
-   <h3>Building a digital brand where Scripture meets soil.</h3>
-
-<p>
-    Yagazie Foods & Farms demonstrates my ability to combine branding, storytelling and front-end development into a cohesive digital experience. Every section was intentionally designed to communicate freshness, trust and purpose while reflecting the brand's mission of connecting agriculture, faith and everyday living through modern web design.
-</p>
-
-</div>
-
-    <h3>Tools & Technologies</h3>
-
-    <div class="tech-pills">
-
-        <span class="tech-pill">HTML5</span>
-
-        <span class="tech-pill">CSS3</span>
-
-        <span class="tech-pill">Flexbox</span>
-
-        <span class="tech-pill">CSS Grid</span>
-
-        <span class="tech-pill">Responsive Design</span>
-
-        <span class="tech-pill">Git</span>
-
-        <span class="tech-pill">GitHub</span>
-
-        <span class="tech-pill">VS Code</span>
-
-    </div>
-
-</div>
-
-    <div class="decision-heading">
-
-        <span class="section-tag">Design Thinking</span>
-
-        <h3>Every design decision was made to communicate growth, trust and natural abundance.</h3>
-
-    </div>
-
-    <div class="decision-grid">
-
-        <div class="decision-card">
-
-         <h4>Nature-Inspired Colours</h4>
-
-<p>
-Forest greens, warm earth tones and soft neutrals were selected to reflect healthy crops, fertile soil and the freshness of farm produce.
-</p>
-
-        </div>
-
-        <div class="decision-card">
-
-           <h4>Story-Driven Layout</h4>
-
-<p>
-The website guides visitors through the brand story before introducing products, creating an emotional connection before encouraging exploration.
-</p>
-
-        </div>
-<div class="decision-card">
-      <h4>Responsive Experience</h4>
-
-<p>
-Layouts adapt seamlessly across desktops, tablets and mobile devices, ensuring an enjoyable browsing experience everywhere.
-</p>
-
-        </div>
-
-        <div class="decision-card">
-
-      <h4>Clean Visual Hierarchy</h4>
-
-<p>
-Generous spacing, bold headings and strong imagery make information easy to scan while allowing the produce to remain the centre of attention.
-</p>
-
-        </div>
-
-    </div>
-
-</div>
-
-    <div class="features-grid">
-
-        <div class="feature-item">
-            <i class="fa-solid fa-mobile-screen-button"></i>
-            <div>
-                <h4>Responsive Website</h4>
-
-<p>
-Designed to perform beautifully across desktop, tablet and mobile devices.
-</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-utensils"></i>
-            <div>
-             <h4>Product Showcase</h4>
-
-<p>
-Fresh produce is organised into clear categories for effortless browsing.
-</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-image"></i>
-            <div>
-                <h4>Immersive Imagery</h4>
-
-<p>
-Large, vibrant photographs highlight the freshness and quality of every product.
-</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-bolt"></i>
-            <div>
-                <h4>Lightweight Performance</h4>
-
-<p>
-Built with clean HTML and CSS for fast loading and smooth interaction.
-</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-layer-group"></i>
-            <div>
-              <h4>Modern Brand Identity</h4>
-
-<p>
-Typography, colour and spacing work together to reinforce a premium agricultural brand.
-</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-hand-pointer"></i>
-            <div>
-                <h4>Simple Navigation</h4>
-
-<p>
-Visitors can quickly discover products, learn about the farm and explore the brand story.
-</p>
-            </div>
-        </div>
-
-    </div>
-
-</div>
-
-    <div class="project-highlights">
-
-    
-    <div class="highlight">
-        <span class="highlight-label">Role</span>
-        <h5>UI/UX Designer & Front-End Developer</h5>
-    </div>
-
-    <div class="highlight">
-        <span class="highlight-label">Timeline</span>
-        <h5>3 Weeks</h5>
-    </div>
-
-    <div class="highlight">
-        <span class="highlight-label">Project Type</span>
-        <h5>Brand Website</h5>
-    </div>
-
-    <div class="highlight">
-        <span class="highlight-label">Tools</span>
-        <h5>HTML5 • CSS 3 • Brand Identity • UI Design • CSS Grid • VS Code • GitHub • Brand •Responsive Design </h5>
-    </div>
-
-</div>
-
-    <div class="story-block">
-        <h4>The Challenge</h4>
-
-<p>
-Many agricultural businesses have excellent products but struggle to communicate credibility and value online. The challenge was to design a website that would showcase fresh farm produce while building trust, educating visitors about the brand and creating a memorable digital identity that reflects excellence, sustainability and purpose.
-</p>
-    </div>
-
-    <div class="story-block">
-    <h4>The Solution</h4>
-
-<p>
-I designed a clean, responsive website that combines beautiful agricultural imagery, thoughtful typography and intuitive navigation to tell the Yagazie story. The result is a modern digital experience that promotes products while strengthening the brand's identity and mission.
-</p>
-</div>
-
-    <div class="story-block">
-        <h4>My Role</h4>
-
-<p>
-I led the entire design and front-end development process—from planning the information architecture and defining the visual identity to building responsive layouts, refining user experience and implementing the final interface using HTML and CSS.
-</p>
-    </div>
-
-
-
-<div class="story-block">
-    <h4>Outcome</h4>
-
-    <p>
-        This project strengthened my ability to transform a brand vision into a cohesive digital experience. It demonstrates my skills in responsive front-end development, visual storytelling, user-centred design and creating interfaces that communicate both purpose and professionalism.
-    </p>
-</div>
-
-</div>
-
-          <div class="project-links">
-    <a href="Portfolio/yagaziefoods/index.html" target="_blank" class="btn-small">
-        Live Demo
-    </a>
-
-    <a href="https://github.com/YOURUSERNAME/YOURREPOSITORY" target="_blank" class="btn-small">
-        GitHub
-    </a>
-</div>
-
-        </div>
-
-      </article>
-
-
-      <!-- Project 3 -->
-      <article class="project-card">
-       <div class="project-img divine-trio"></div>
-   <div class="project-badge">
-    Author • Designer • Digital Product
-</div>
-
-        <div class="project-info">
-          <h3>The Divine Trio</h3>
-
-<p class="project-subtitle">
-Knowledge. Understanding. Wisdom.
-</p>
-<blockquote class="project-quote">
-"The principal thing is wisdom: therefore get wisdom: and with all thy getting get understanding."
-<br>
-<span>— Proverbs 4:7</span>
-</blockquote>
-
-         A faith-based digital publishing project that transforms timeless biblical truths into a modern reading experience through thoughtful writing, visual storytelling and elegant design.
-
-          <p class="tech-used">
-          Writing • Book Design • HTML5 • CSS3 • UI/UX
-          </p>
-          <div class="project-snapshot">
-
-    <div class="snapshot-item">
-        <span>Industry</span>
-        <strong>Publishing</strong>
-    </div>
-
-    <div class="snapshot-item">
-        <span>Role</span>
-        <strong>Author & Designer</strong>
-    </div>
-
-    <div class="snapshot-item">
-        <span>Duration</span>
-        <strong>Ongoing</strong>
-    </div>
-
-    <div class="snapshot-item">
-        <span>Format</span>
-        <strong>Interactive Web Experience</strong>
-    </div>
-
-</div>
-          <div class="project-story">
-           <div class="project-features">
-
-    <h3>Book Highlights</h3>
-   
-
-    <h3>Tools & Technologies</h3>
-
-    <div class="tech-pills">
-
-        <span class="tech-pill">HTML5</span>
-
-        <span class="tech-pill">CSS3</span>
-
-        <span class="tech-pill">Flexbox</span>
-
-        <span class="tech-pill">CSS Grid</span>
-
-        <span class="tech-pill">Responsive Design</span>
-
-        <span class="tech-pill">Git</span>
-
-        <span class="tech-pill">GitHub</span>
-
-        <span class="tech-pill">VS Code</span>
-
-    </div>
-
-</div>
-
-  <div class="decision-heading">
-
-    <span class="section-tag">Design Thinking</span>
-
-    <h3>
-        Every design decision was made to encourage reflection, clarity and discovery.
-    </h3>
-
-</div>
-
-    </div>
-
-    <div class="decision-grid">
-
-        <div class="decision-card">
-
-<h4>Thoughtful Storytelling</h4>
-
-<p>
-Each section guides the reader naturally from one idea to another, making complex biblical concepts approachable without losing depth.
-</p>
-
-        </div>
-
-        <div class="decision-card">
-
-<h4>Christ-Centred Teaching</h4>
-
-<p>
-Explores knowledge, understanding and wisdom through Scripture and practical application.
-</p>
-
-        </div>
-<div class="decision-card">
-<h4>Meaningful Visual Hierarchy</h4>
-
-
-<p>
-Typography, spacing and layout work together to help readers absorb ideas comfortably while maintaining visual elegance.
-</p>
-
-        </div>
-
-        <div class="decision-card">
-
-<h4>Elegant Reading Experience</h4>
-
-<p>
-Typography, spacing and layout were designed to encourage immersive reading while keeping the focus on the message.
-</p>
-
-        </div>
-
-    </div>
-
-</div>
-
-    <div class="features-grid">
-
-        <div class="feature-item">
-            <i class="fa-solid fa-mobile-screen-button"></i>
-            <div>
-     <h4>Biblical Storytelling</h4>
-
-<p>
-Scripture, personal insight and practical application are woven together into a cohesive reading experience.
-</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-utensils"></i>
-            <div>
-  <h4>Elegant Reading Experience</h4>
-
-<p>
-Typography, spacing and layout were designed to encourage immersive reading.
-</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-image"></i>
-            <div>
-     <h4>Practical Application</h4>
-
-<p>
-Each chapter encourages readers to move beyond information into transformation.
-</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-bolt"></i>
-            <div>
-   <h4>Purposeful Design</h4>
-
-<p>
-Every visual element supports clarity, focus and meaningful engagement.
-</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-layer-group"></i>
-            <div>
-  <h4>Digital Publishing</h4>
-
-<p>
-Demonstrates how thoughtful writing can become a compelling digital product.
-</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-hand-pointer"></i>
-            <div>
-                <h4>Digital Publishing</h4>
-
-<p>
-Demonstrates how thoughtful content can be transformed into an engaging digital product.
-</p>
-            </div>
-        </div>
-
-    </div>
-
-</div>
-
-    <div class="project-highlights">
-      <div class="highlight">
-        <span class="highlight-label">Role</span>
-        <h5>Data Analyst</h5>
-    </div>
-
-    <div class="highlight">
-        <span class="highlight-label">Timeline</span>
-        <h5>3 Weeks</h5>
-    </div>
-
-    <div class="highlight">
-        <span class="highlight-label">Project Type</span>
-        <h5>Brand Website</h5>
-    </div>
-
-    <div class="highlight">
-        <span class="highlight-label">Tools</span>
-     <h5>Writing • HTML • CSS • Canva • VS Code</h5>
-    </div>
-
-</div>
-
-    <div class="story-block">
-    <h4>The Challenge</h4>
-
-<p>
-Many readers find biblical concepts profound but difficult to apply in everyday life. The challenge was to present timeless spiritual truths in a way that remains faithful to Scripture while making them engaging, practical and accessible through thoughtful digital design.
-</p>
-    </div>
-
-    <div class="story-block">
-   <h4>The Solution</h4>
-
-<p>
-The Divine Trio combines reflective writing, structured storytelling and elegant interface design to create a digital reading experience that encourages both understanding and application. The result is a product that feels as intentional visually as it is spiritually.
-</p>
-
-    <div class="story-block">
-      <h4>My Role</h4>
-
-<p>
-I developed the project from concept to completion, including research, writing, content structure, visual direction, user experience design and front-end implementation. This project reflects my multidisciplinary approach to creating meaningful digital products.
-</p>
-    </div>
-
-</div>
-
-<div class="story-block">
-<h4>Outcome</h4>
-
-<p>
-The Divine Trio demonstrates my ability to bring together writing, design and technology to communicate complex ideas with clarity. It showcases not only my front-end development skills but also my ability to think strategically, tell compelling stories and design experiences that leave a lasting impression.
-More than a technical project, The Divine Trio reflects my passion for building products that inspire growth, encourage reflection and communicate truth through thoughtful digital experiences.
-</p>
-</div>
-
-<div class="story-block">
-
-<h4>What I Learned</h4>
-
-<p>
-
-Building The Divine Trio taught me that great digital products are not defined by technology alone—they are shaped by clarity, empathy and intentional communication. This project strengthened my ability to translate complex ideas into engaging experiences through design, storytelling and front-end development.
-
-</p>
-
-</div>
-
-          <div class="project-links">
-    <a href="#" target="_blank" class="btn-small">
-        Read Preview
-    </a>
-
-    <a href="https://github.com/YOURUSERNAME/YOURREPOSITORY" target="_blank" class="btn-small">
-        Project Files
-    </a>
-</div>
-
-        </div>
-
-      </article>
-
-
-
-      <!-- Project 4 -->
-     <article class="project-card">
-
-       <div class="project-img mega-chicken"></div>
-
-   <div class="project-badge">
-Data Analytics • Business Intelligence • Dashboard Design
-</div>
-
-        <div class="project-info">
-          <h3>Mega Chicken Analytics Dashboard</h3>
-
-<p class="project-subtitle">
-Turning Customer Feedback into Actionable Insights
-</p>
-
-
-
-      <p>
-
-This project explores customer reviews from Mega Chicken to uncover valuable business insights through data cleaning, sentiment analysis and interactive dashboard design. The goal was to transform raw customer feedback into meaningful recommendations that support better decision-making and improve customer experience.
-
-</p>
-
-         <p class="tech-used">
-
-Excel • Power BI • Data Cleaning • Data Visualisation • Business Intelligence
-
-</p>
-          <div class="project-snapshot">
-
-    <div class="snapshot-item">
-        <span>Industry</span>
-        <strong>Food & Hospitality</strong>
-    </div>
-
-    <div class="snapshot-item">
-        <span>Role</span>
-        <strong>Data Analyst</strong>
-    </div>
-
-    <div class="snapshot-item">
-        <span>Duration</span>
-        <strong>2 Weeks</strong>
-    </div>
-
-    <div class="snapshot-item">
-        <span>Format</span>
-        <strong>Interactive Dashboard</strong>
-    </div>
-
-</div>
-          <div class="project-story">
-            <div class="project-features">
-
-    <h3>Dashboard Highlights</h3>
-    <div class="Design Thinking">
-      
-
-<h3>Transforming customer feedback into business intelligence.</h3>
-
-<p>
-This project demonstrates my ability to collect, clean, analyse and visualise customer feedback to uncover actionable business insights. By combining data analysis with dashboard design, I transformed raw reviews into meaningful information that supports better decision-making and improves customer experience.
-</p>
-
-</div>
-
-    <h3>Tools & Technologies</h3>
-
-    <div class="tech-pills">
-
-        <span class="tech-pill">Excel</span>
-
-<span class="tech-pill">Power Query</span>
-
-<span class="tech-pill">Power BI</span>
-
-<span class="tech-pill">Data Cleaning</span>
-
-<span class="tech-pill">Data Analysis</span>
-
-<span class="tech-pill">Dashboard Design</span>
-
-<span class="tech-pill">Data Visualisation</span>
-
-<span class="tech-pill">Business Intelligence</span>
-    </div>
-
-</div>
-
-<div class="decision-heading">
-
-    <span class="section-tag">Design Thinking</span>
-
-    <h3>
-        Every dashboard element was designed to communicate insights quickly, clearly and effectively.
-    </h3>
-
-</div>
-
-    <div class="decision-grid">
-
-        <div class="decision-card">
-
-<h4>Clear Data Storytelling</h4>
-
-<p>
-Charts and metrics were organised to communicate findings at a glance, helping stakeholders quickly understand customer sentiment.
-</p>
-
-        </div>
-
-        <div class="decision-card">
-
-<h4>Interactive Dashboard</h4>
-
-<p>
-The dashboard enables users to explore trends, customer behaviour and key performance indicators through an intuitive layout.
-</p>
-
-        </div>
-
-<div class="decision-card">
-<h4>Meaningful Visual Hierarchy</h4>
-
-<p>
-Information is grouped logically to guide attention from high-level insights to detailed analysis without overwhelming the user.
-</p>
-
-</div>
-
-        <div class="decision-card">
-
-<h4>Business-Focused Design</h4>
-
-<p>
-Every visual element was selected to support informed decision-making rather than simply presenting data.
-</p>
-
-        </div>
-
-    </div>
-
-</div>
-
-    <div class="features-grid">
-
-        <div class="feature-item">
-            <i class="fa-solid fa-mobile-screen-button"></i>
-            <div>
-<h4>Data Cleaning</h4>
-
-<p>
-Prepared and organised raw customer reviews for accurate analysis.
-</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-utensils"></i>
-            <div>
-<h4>Sentiment Analysis</h4>
-
-<p>
-Categorised customer feedback into positive, neutral and negative sentiments.
-</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-image"></i>
-            <div>
- <h4>Interactive Dashboard</h4>
-
-<p>
-Designed a business dashboard to communicate trends and insights clearly.
-</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-bolt"></i>
-            <div>
- <h4>Business Insights</h4>
-
-<p>
-Identified customer pain points, strengths and opportunities for improvement.
-</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-layer-group"></i>
-            <div>
- <h4>Data Visualisation</h4>
-
-<p>
-Used charts and summary metrics to simplify complex datasets.
-</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <i class="fa-solid fa-hand-pointer"></i>
-            <div>
-         <h4>Strategic Recommendations</h4>
-
-<p>
-Converted analytical findings into practical recommendations for business growth.
-</p>
-            </div>
-        </div>
-
-    </div>
-
-</div>
-
-    <div class="project-highlights">
-
-    </div><div class="highlight">
-        <span class="highlight-label">Role</span>
-        <h5>Data Analyst</h5>
-    </div>
-
-    <div class="highlight">
-        <span class="highlight-label">Timeline</span>
-        <h5>2 Weeks</h5>
-    </div>
-
-    <div class="highlight">
-        <span class="highlight-label">Project Type</span>
-        <h5>Interactive Dashboard</h5>
-    </div>
-
-    <div class="highlight">
-        <span class="highlight-label">Tools</span>
-     <h5>Excel • Power BI • Power Query • VS Code</h5>
-    </div>
-
-</div>
-
-
-
-    <div class="story-block">
-<h4>The Challenge</h4>
-
-<p>
-Customer reviews contain valuable business insights, but when scattered across hundreds of comments they become difficult to interpret. The challenge was to organise, analyse and present this data in a way that supports informed business decisions.
-</p>
-    </div>
-
-    <div class="story-block">
- <h4>The Solution</h4>
-
-<p>
-I cleaned and analysed the customer review dataset before designing an interactive dashboard that highlights customer sentiment, recurring themes and operational trends. The final solution transforms raw feedback into clear, actionable insights for decision-makers.
-</p>
-    </div>
-
-    <div class="story-block">
- <h4>My Role</h4>
-
-<p>
-I managed the complete analytics workflow, including data preparation, exploratory analysis, dashboard design, insight generation and the communication of findings through clear visualisations and recommendations.
-</p>
-    </div>
-
-</div>
-
-<div class="story-block">
-<h4>Outcome</h4>
-
-<p>
-This project strengthened my analytical thinking and demonstrated my ability to turn raw customer data into meaningful business intelligence. It showcases my skills in data analysis, dashboard design, visual communication and translating insights into practical recommendations.
-</p>
-
-</div>
-
-<div class="story-block">
-    <h4>Key Insights</h4>
-    <p>
-        The analysis revealed that food quality and taste consistently drove positive customer experiences, while delays in service and occasional order inaccuracies were the primary sources of dissatisfaction. These findings informed practical recommendations to improve customer satisfaction, streamline operations and strengthen overall service delivery.
-    </p>
-</div>
-
-
-
-          <div class="project-links">
- <a href="megachicken/Mega-Chicken-Analytics-Report.pdf"
-   target="_blank"
-   class="btn-small">
-    Dashboard Preview
-</a>
-
-    <a href="https://github.com/billionaireoluchukwu/megachicken" target="_blank" class="btn-small">
-        Project Files
-    </a>
-</div>
-
-        </div>
-
-      </article>
-        </div>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-    <!-- 6. Contact Section -->
+    <!-- ================= CONTACT ================= -->
     <section id="contact" class="contact">
       <div class="container">
-        <h2>Get In Touch</h2>
-        <p class="contact-intro">Getting feedbacks, good or bad helps me grow and I love growth.
-          <br>I would really love to hear from you!</p>
+        <div class="section-heading">
+          <span class="section-tag">Get In Touch</span>
+          <h2>Let's Connect</h2>
+          <p class="contact-intro">
+            Getting feedback, good or bad, helps me grow and I love growth.
+            <br>I would really love to hear from you!
+          </p>
+        </div>
+
         <div class="contact-grid">
-          <form class="contact-form" action="#" method="post">
+          <form class="contact-form" action="https://formsubmit.co/theoluchukwu@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New message from your portfolio site">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" style="display:none">
+
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Your Name" required>
 
@@ -1361,9 +275,9 @@ This project strengthened my analytical thinking and demonstrated my ability to 
             <h3>Connect with me</h3>
             <p><i class="fa-solid fa-envelope"></i> theoluchukwu@gmail.com</p>
             <div class="social-links">
-              <a href="https://github.com/billionaireoluchukwu/Personal-project-html" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/mamah-oluchukwu-2964941b4/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BiszJFeLiRJqVcAa8MVOJcA%3D%3D" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="https://x.com/lulubillionaire?s=21k" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://github.com/billionaireoluchukwu/Personal-project-html" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/mamah-oluchukwu-2964941b4" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://x.com/lulubillionaire" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
           </div>
         </div>
@@ -1371,41 +285,34 @@ This project strengthened my analytical thinking and demonstrated my ability to 
     </section>
   </main>
 
-  <!-- 7. Footer -->
+  <!-- ================= FOOTER ================= -->
   <footer class="footer">
     <div class="container">
       <div class="footer-social">
-        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://github.com/billionaireoluchukwu" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/mamah-oluchukwu" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://x.com/lulubillionaire" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
       </div>
-      <p>&copy; 2026 TheBillioniareLuccies. All rights reserved.</p>
+      <p>&copy; 2026 TheBillionaireLuccies. All rights reserved.</p>
+      <p class="case-study-footer-text">Designed with intention. Developed with precision. Built to create meaningful digital experiences.</p>
     </div>
   </footer>
-<script>
-const projects = document.querySelectorAll(".work-item");
 
-const observer = new IntersectionObserver((entries)=>{
-    entries.forEach(entry=>{
-        if(entry.isIntersecting){
-            entry.target.classList.add("show");
-        }
+  <script>
+    // Close mobile menu when a nav link is clicked
+    const navToggle = document.getElementById('nav-toggle');
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => { navToggle.checked = false; });
     });
-},{
-    threshold:0.2
-});
 
-projects.forEach(project=>{
-    observer.observe(project);
-});
-
-<div class="case-study-footer">
-
-    <p>
-        Designed with intention. Developed with precision. Built to create meaningful digital experiences.
-    </p>
-
-</div>
-</script>
+    // Fade-in animation for project & about cards
+    const animatedItems = document.querySelectorAll('.project-card, .about-card');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('show');
+      });
+    }, { threshold: 0.15 });
+    animatedItems.forEach(item => observer.observe(item));
+  </script>
 </body>
 </html>
